@@ -32,6 +32,7 @@ You could download the pretrained model (34.8MB) of DAVANet from [[Here]](https:
 #### Installation
 
 ```
+# Ubuntu22.04
 conda create -n davanet python=3.6
 
 conda activate davanet
