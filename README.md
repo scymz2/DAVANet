@@ -23,7 +23,7 @@ You could download the pretrained model (34.8MB) of DAVANet from [[Here]](https:
 ## Prerequisites
 
 - Linux (tested on Ubuntu 14.04/16.04)
-- Python 2.7+
+- Python 2.7+ # recommend 3.6
 - Pytorch 0.4.1
 - easydict
 - tensorboardX
@@ -32,6 +32,9 @@ You could download the pretrained model (34.8MB) of DAVANet from [[Here]](https:
 #### Installation
 
 ```
+# Better use the following command first, it's fot the CUDA 9.2 version
+pip install torch==0.4.1 torchvision==0.2.0 -f https://download.pytorch.org/whl/cu92/torch_stable.html
+
 pip install -r requirements.txt
 ```
 
