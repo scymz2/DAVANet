@@ -32,6 +32,10 @@ You could download the pretrained model (34.8MB) of DAVANet from [[Here]](https:
 #### Installation
 
 ```
+conda create -n davanet python=3.6
+
+conda activate davanet
+
 # Better use the following command first, it's fot the CUDA 9.2 version
 pip install torch==0.4.1 torchvision==0.2.0 -f https://download.pytorch.org/whl/cu92/torch_stable.html
 
